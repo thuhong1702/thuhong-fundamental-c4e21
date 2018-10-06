@@ -24,18 +24,4 @@ print(flock_size)
 print("****")
 print()
 
-# for k in range(2):
-#     print("One month has passed, now here is my flock:")
-#     print(flock_size)
-
-#     print("After shearing, here is my flock ")
-#     print(flock_size)
-#     print("Now my biggest sheep has size", max_size, end='')
-    
-#     for i in range(len(flock_size)):
-#         flock_size[i] += increase
-#         print(flock_size)
-# print("*****")
-
-# total = 
-
+print("next sheep2")
