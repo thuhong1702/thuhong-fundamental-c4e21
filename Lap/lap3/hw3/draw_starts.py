@@ -11,7 +11,7 @@ def draw_star(size,color):
         end_fill()
         
     return
-draw_star(100, "purple")
+draw_star(100, "red")
 
 mainloop()
 
