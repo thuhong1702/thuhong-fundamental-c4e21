@@ -25,7 +25,7 @@ def me():
 
 @app.route("/school")
 def school():
-    return render_template("school.html")
+    return redirect(http://techkids.vn)
 
 @app.route("/bmi/<int:weight>/<int:height_cm>")
 def bmi_someone(weight, height_cm):
