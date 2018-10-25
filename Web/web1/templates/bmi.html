@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BMI</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+    
+</head>
+<body>
+    <h2>Your BMI</h2>
+    <script>
+            function myFunction() {
+                var bmi = new Date().getDate(); 
+                var greeting;
+                if (bmi < 16) {
+                    greeting = "Selevery Underweigt";
+                } 
+                elif (16<=bmi<18) {
+                    greeting = "Underweight";
+                }
+                elif (18<=bmi<25) {
+                    greeting = "Normal";
+                }
+                elif (16<=bmi<18) {
+                    greeting = "Overweight";
+                }
+                else (16<=bmi<18) {
+                    greeting = "Obese";
+                }
+                document.getElementById("demo").innerHTML = greeting;
+            }
+            </script>
+</body>
+</html>
