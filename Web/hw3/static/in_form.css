@@ -29,7 +29,7 @@ button {
     width: 50%;
     display: flex;
     flex-flow: column;
-    justify-content:space-between;
+    justify-content:center;
 }
 .write_input {
     width: 80%;
