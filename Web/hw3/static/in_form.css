@@ -1,0 +1,38 @@
+html, body {
+    height:100%
+}
+* {
+    font-size: 1.1rem;
+}
+input {
+    border-width: 1px;
+    padding: 5px;
+}
+button {
+    width: 10%;
+    font-size: 1.1rem;
+    padding: 10px 10px 10px 10px;
+    border-radius: 6px;
+    background-color: blueviolet;
+    color: #ffffff;
+    cursor: pointer;
+}
+#root_survey, .survey_center {
+    height: 100%;
+    width: 100%;
+    flex-flow: column;
+    background: rgba(225, 0, 255, 0.2);
+    display: flex;
+    justify-content: center;
+}
+#write_infor {
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content:space-between;
+}
+.write_input {
+    width: 80%;
+    border: 3px;
+    margin-bottom: 8px
+}

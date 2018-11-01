@@ -9,13 +9,19 @@
 </head>
 <body>
     <div id="root">
-        <div id="choise_wrapper">
-            <input class="input_choise" type="text">
-            <input class="input_choise" type="text">
-            <input class="input_choise" type="text">
-            <input class="input_choise" type="text">
-            <input class="input_choise" type="text">
-        </div> 
+        <form action="" class="container_center" method="POST">
+                <input type="text" name="question" id = "input_question" placeholder="Question">
+                <div id="choise_wrapper">
+                    <input class="input_choise" name="Opton1" placeholder="Option1" type="text">
+                    <input class="input_choise" name="Opton2" placeholder="Option2" type="text">
+                    <input class="input_choise" name="Opton3" placeholder="Option3" type="text">
+                    <input class="input_choise" name="Opton4" placeholder="Option4" type="text">
+                    <input class="input_choise" name="Opton5" placeholder="Option5" type="text">
+                </div> 
+                <button id="btn_submit_poll">Submit poll</button>
+        </form>
+        
     </div>
+    
 </body>
 </html>
